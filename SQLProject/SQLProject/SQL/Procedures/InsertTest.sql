@@ -7,5 +7,5 @@ AS
 INSERT Homework4.Club([Name], Purpose)
 VALUES(@ClubName, @ClubPurpose);
 
-SET @PersonId = SCOPE_IDENTITY();
+SET @ClubId = SCOPE_IDENTITY();
 GO
